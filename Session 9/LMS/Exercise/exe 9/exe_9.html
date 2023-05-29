@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm</title>
+    <script src="./exe_9.js"></script>
+    <link rel="stylesheet" href="./exe_9.css">
+</head>
+<body>
+    <body>
+        <div class="overlay" id="overlay" hidden>
+          <div class="confirm-box">
+            <div onclick="closeConfirmBox()" class="close">&#10006;</div>
+            <h2>Confirmation</h2>
+            <p>Bạn đã đủ 18 tuổi chưa?</p>
+            <button onclick="isConfirm(true)">Yes</button>
+            <button onclick="isConfirm(false)">No</button>
+          </div>
+        </div>
+        <button class="click" onclick="showConfirmBox()">Cofirm your age</button>
+      </body>
+</body>
+</html>
